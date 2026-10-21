@@ -1,0 +1,38 @@
+.container{
+    border: 1px solid pink;
+    width: 400px;
+    min-height: 500px;
+    margin:auto;
+    margin-top: 50px;
+    display:grid;
+    justify-content: center ;
+    text-align: center;
+
+}
+
+img{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    place-self:  center;
+    margin-top: 20px;
+    transition: 0.2s;
+
+    
+}
+
+.txt2{
+    font-size:30px;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.btstyle{
+    border-radius: 5px;
+    background-color: pink;
+    color: lightcoral;
+    border: 1px solid pink;
+
+
+
+}

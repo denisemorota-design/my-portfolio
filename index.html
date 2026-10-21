@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Denise Morota | Personal Portfolio</title>
+  <meta name="description" content="Denise Morota - BS Computer Science student at Pambayang Dalubhasaan ng Marilao. Web development portfolio with HTML, CSS and JavaScript projects.">
+  <meta name="author" content="Denise Morota">
+  <meta name="theme-color" content="#FF4F9A">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Denise Morota | Personal Portfolio">
+  <meta property="og:description" content="BS Computer Science student and aspiring web developer. See my HTML, CSS and JavaScript projects.">
+  <meta property="og:image" content="profile.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%BE%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floaters" id="floaters" aria-hidden="true"></div>
+
+  <header class="nav glass">
+    <a class="logo" href="#home">♥ Denise Morota ♥</a>
+    <nav id="menu" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <button id="theme" class="round" aria-label="Switch theme">☀</button>
+      <button id="burger" class="round burger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">♥Hello, I'm</p>
+        <h1>Denise Morota <span class="heart">♥</span></h1>
+        <div class="chips"><span>BS Computer Science</span><span>Second Year</span><span>Web Developer</span></div>
+        <p class="lead">I love creating and designing websites that turn ideas into beautiful, interactive and friendly digital experiences. 💗</p>
+        <div class="btns">
+          <a class="btn" href="#projects">View My Projects →</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+          <button class="btn ghost" id="hi">Say Hi!</button>
+        </div>
+      </div>
+      <aside class="hero-card glass">
+        <div class="avatar photo"><img src="profile.jpg" alt="Denise Morota"></div>
+        <h3>Little cat,<br>big dreams ♥</h3>
+        <dl>
+          <div><dt>Education</dt><dd>Pambayang Dalubhasaan ng Marilao</dd></div>
+          <div><dt>Skills</dt><dd>HTML • CSS • JavaScript</dd></div>
+          <div><dt>Contact</dt><dd>denisemorota@gmail.com</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section id="about">
+      <p class="tag">♥ GET TO KNOW ME</p>
+      <h2>About Me</h2>
+      <div class="two">
+        <article class="glass card">
+          <h3>My Story</h3>
+          <div id="bio">
+            <p>I am a BS Computer Science student at Pambayang Dalubhasaan ng Marilao. Web development is where I started making things that react to people, and I enjoy it more with every activity.</p>
+            <p>My goal is to keep improving my programming skills and become a web developer.</p>
+          </div>
+          <button class="btn small" id="bioBtn">Hide Biography</button>
+        </article>
+        <article class="glass card">
+          <h3>Personal Information</h3>
+          <ul class="info">
+            <li><b>Course:</b> BS Computer Science</li>
+            <li><b>School:</b> Pambayang Dalubhasaan ng Marilao</li>
+            <li><b>Year Level:</b> Second Year</li>
+            <li><b>Interest:</b> Web Development</li>
+            <li><b>Goal:</b> Become a Web Developer</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey">
+      <p class="tag">🎓 MY LEARNING JOURNEY</p>
+      <h2>What I Learned</h2>
+      <div class="grid3">
+        <article class="glass card"><span class="ico">🌸</span><h3>HTML</h3><p>Page structure with headings, images, inputs, selects and buttons.</p></article>
+        <article class="glass card"><span class="ico">🎀</span><h3>CSS</h3><p>Styling with grid layout, rounded images, colors and transitions.</p></article>
+        <article class="glass card"><span class="ico">✨</span><h3>JavaScript DOM</h3><p>Selecting elements by ID and changing their text and styles.</p></article>
+        <article class="glass card"><span class="ico">🖱️</span><h3>Events</h3><p>Click, double click, hover, focus, typing and press-and-hold.</p></article>
+        <article class="glass card"><span class="ico">⏳</span><h3>Promises</h3><p>Handling delayed tasks and waiting for all of them with Promise.all.</p></article>
+        <article class="glass card"><span class="ico">🚀</span><h3>Deployment</h3><p>Getting a site online with GitHub and Vercel.</p></article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <p class="tag">♥ MY TECHNICAL KNOWLEDGE</p>
+      <h2>My Skills</h2>
+      <div class="glass card skills">
+        <div class="skill"><div class="row"><span>HTML</span><em>Comfortable</em></div><div class="bar"><i data-w="80"></i></div></div>
+        <div class="skill"><div class="row"><span>CSS</span><em>Intermediate</em></div><div class="bar"><i data-w="75"></i></div></div>
+        <div class="skill"><div class="row"><span>JavaScript DOM</span><em>Intermediate</em></div><div class="bar"><i data-w="65"></i></div></div>
+        <div class="skill"><div class="row"><span>Events &amp; Promises</span><em>Learning</em></div><div class="bar"><i data-w="55"></i></div></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="tag">♥ MY WORK</p>
+      <h2>Projects &amp; Activities</h2>
+      <div class="grid3">
+        <article class="glass card proj"><div class="thumb t1">Activity #1</div><h3>Profile Card</h3><p>A profile card that reacts to hover, typing, focus, click, double click and press-and-hold.</p><a href="activities/activity1/sample.html">View Project →</a></article>
+        <article class="glass card proj"><div class="thumb t2">Activity #2</div><h3>Loading Dashboard</h3><p>Three promises load profile, grades and schedule, then Promise.all shows "Dashboard Ready!".</p><a href="activities/activity2/sample.html">View Project →</a></article>
+        <article class="glass card proj"><div class="thumb t3">Activity #3</div><h3>DOM Basics</h3><p>Changing text and colors with JavaScript, button events and an image hover effect.</p><a href="activities/activity3/sample.html">View Project →</a></article>
+      </div>
+    </section>
+
+    <section id="reflection">
+      <p class="tag">♥LOOKING BACK</p>
+      <h2>My Final Reflection</h2>
+      <article class="glass card">
+        <h3>What Web Development Taught Me</h3>
+        <p>These activities showed me how a page can respond to what a person does. I started by changing text with the DOM, moved on to events like hover and double click, then learned to wait for several tasks at once with Promises.</p>
+        <div id="more" hidden>
+          <p>Some of my code did not work the first time, so I learned to read my own scripts line by line and find the typo or the missing piece.</p>
+          <p>This portfolio puts my activities in one place, and I plan to keep adding to it as I learn more. 💗</p>
+        </div>
+        <button class="btn small" id="moreBtn">Read More</button>
+      </article>
+    </section>
+
+    <section id="contact" class="center">
+      <p class="tag">LET'S CONNECT</p>
+      <h2>Let's create something beautiful! 🐱</h2>
+      <p class="lead">Reach out for projects, creative ideas or collaboration.</p>
+      <div class="btns c"><a class="btn" href="mailto:hello@example.com">Email Me</a><a class="btn ghost" href="tel:+630000000000">Call Me</a></div>
+    </section>
+  </main>
+
+  <footer>♥Made with curiosity &amp; a little cat magic · © <span id="year"></span> Denise Morota · Code ✦ Design ✦ Create</footer>
+
+  <div class="modal" id="modal" hidden>
+    <div class="glass box" role="dialog" aria-modal="true" aria-label="Hello">
+      <div class="avatar sm"></div>
+      <h3>Hello!</h3>
+      <p>Have a wonderful day! ♥</p>
+      <button class="btn small" id="close">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
